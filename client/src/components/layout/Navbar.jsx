@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav>
-      Navbar
+      <h2>Campus Connect</h2>
     </nav>
   );
 }
