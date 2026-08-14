@@ -1,0 +1,125 @@
+.event-details-page {
+    min-height: 100vh;
+    padding: 50px 20px;
+    background: #f8fafc;
+}
+
+.back-link {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.event-details-card {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.event-details-banner {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+}
+
+.event-details-banner span {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    font-size: 60px;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.1);
+}
+
+.event-details-content {
+    padding: 40px;
+}
+
+.event-details-category {
+    display: inline-block;
+    padding: 7px 13px;
+    border-radius: 20px;
+    background: #dbeafe;
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.event-details-content h1 {
+    margin: 15px 0;
+    font-size: 42px;
+    color: #0f172a;
+}
+
+.event-details-description {
+    color: #64748b;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.event-info {
+    display: flex;
+    gap: 50px;
+    margin: 30px 0;
+    padding: 25px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.event-info>div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.event-info>div>span {
+    font-size: 25px;
+}
+
+.event-info small {
+    display: block;
+    color: #94a3b8;
+    margin-bottom: 4px;
+}
+
+.event-info strong {
+    color: #334155;
+}
+
+.book-button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 9px;
+    background: #2563eb;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background: #1d4ed8;
+}
+
+.event-not-found {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-not-found a {
+    color: #2563eb;
+}
